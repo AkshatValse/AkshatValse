@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning how I can apply my skills in private equity, consulting, and quant finance.
 - 📫 How to reach me: akshatsachinvalse@gmail.com
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: I was the youngest private pilot in the world when I got my Private Pilot Certificate at seveenteen.
+- ⚡ Fun fact: I was the youngest private pilot in the world when I got my Private Pilot Certificate at seventeen.
 
 <!---
 AkshatValse/AkshatValse is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
