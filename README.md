@@ -6,7 +6,7 @@ I work on the stochastic foundations of machine learning: the theory of stochast
 
 NOTE: ALL RESEARCH RESULTS ARE CONFIDENTIAL PENDING PUBLIC RELEASE OF THE PAPERS.
 
-I only have a general overview of what my work entails as of now to preserve confidentiality requirements and I am unable to accommodate requests to elaborate further about any active project.
+I only have a general overview of what my work entails as of now to preserve confidentiality requirements and I am unable to accommodate requests to elaborate further about any active project beyond what is already public on my personal website and in their respective repos.
 
 **[akshatvalse.com](https://akshatvalse.com)** — every figure there is a live simulation rather than a recording, and each one is graded against a closed-form answer.
 
