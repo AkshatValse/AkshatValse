@@ -5,6 +5,7 @@ Undergraduate researcher at Iowa State University, studying Statistics, Mathemat
 I work on the stochastic foundations of machine learning: the theory of stochastic differential equations, applied to the algorithms that now generate and sample. A diffusion model is a reverse-time SDE. Stochastic gradient descent and its Langevin variants are diffusions in a rough loss landscape. The connecting question is what can actually be proved about the objects practitioners already use, in place of heuristics.
 
 NOTE: ALL RESEARCH RESULTS ARE CONFIDENTIAL PENDING PUBLIC RELEASE OF THE PAPERS.
+
 I only have a general overview of what my work entails as of now to preserve confidentiality requirements and I am unable to accommodate requests to elaborate further about any active project.
 
 **[akshatvalse.com](https://akshatvalse.com)** — every figure there is a live simulation rather than a recording, and each one is graded against a closed-form answer.
