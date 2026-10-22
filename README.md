@@ -21,6 +21,15 @@ Large-deviation-guided importance sampling for join-the-shortest-queue systems. 
 **[Stability of neural network PDE solvers](https://akshatvalse.com/research)**
 Conservation in a cell-average neural network solver is architectural. Stability is not, and the training loss does not separate the networks that stay stable over long rollouts from the ones that come apart. I am working on whether that can be told from a trained network alone. Joint with Jue Yan and Mengyuan Yang.
 
+**[Metastable failures in prefix-cached LLM agent serving](https://github.com/AkshatValse/Nova-Research-Overview)**
+An agent re-sends its whole growing conversation on every turn, and a serving engine keeps that shared prefix in a GPU KV cache so follow-up turns stay cheap. When too many sessions compete for the cache, a session evicted during a tool call has to recompute everything, which keeps the cache full and evicts the next one. The question is whether a short burst can push a healthy server into a self-sustaining slow state, and which admission and scheduling mechanisms prevent it. A discrete-event simulator, a queueing-theoretic thrashing-curve model, and real-engine experiments on SGLang over A100s on ISU's Nova cluster, with predictions registered before each run. With Ali Jannesari, SwaPP Lab.
+
+**[Online calibration of neural volatility forecasts with early, one-sided feedback](https://github.com/AkshatValse/neural-forecasting-research-overview)**
+A forecast of a cumulative quantity is only scored when its horizon ends, so every online calibration method learns one full horizon late. But the increments are non-negative, so if the running sum crosses the issued bound early, the miss is certain immediately while coverage is confirmed only at the end. A model-agnostic layer on top of any quantile forecaster credits those certain early misses and keeps explicit accounts of forecasts still pending. Whether that recovers faster after a volatility jump than delayed-feedback conformal baselines, without widening the bounds the rest of the time, is the question; the coverage guarantee is proved and checked numerically. With Hongyang Gao.
+
+**Reliability of tool-using agents**
+When an agent stalls, when is restarting it worth more than waiting, and how do you estimate the probability of a failure too rare for direct simulation to reach? Two pilots on real agents, one on restart policies and one on rare failures, with the direction still being chosen. With Yang Li.
+
 ### Code
 
 **[langevin-samplers](https://github.com/AkshatValse/langevin-samplers)**
