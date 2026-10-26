@@ -2,11 +2,9 @@
 
 Undergraduate researcher at Iowa State University, studying Statistics, Mathematics, Computer Science, and Data Science.
 
-I work on the stochastic foundations of machine learning: the theory of stochastic differential equations, applied to the algorithms that now generate and sample. A diffusion model is a reverse-time SDE. Stochastic gradient descent and its Langevin variants are diffusions in a rough loss landscape. The connecting question is what can actually be proved about the objects practitioners already use, in place of heuristics.
+I build reproducible simulations and numerical experiments in Python, with research spanning stochastic sampling, rare events, neural PDE solvers, and ML serving systems. My focus is connecting mathematical guarantees to implementations that can be checked against exact references.
 
-NOTE: ALL RESEARCH RESULTS ARE CONFIDENTIAL PENDING PUBLIC RELEASE OF THE PAPERS.
-
-I only have a general overview of what my work entails as of now to preserve confidentiality requirements and I am unable to accommodate requests to elaborate further about any active project beyond what is already public on my personal website and in their respective repos.
+Some ongoing research code and results remain private pending publication. Public projects and research summaries are linked below; I am happy to discuss my contributions, methods, and publicly shareable findings.
 
 **[akshatvalse.com](https://akshatvalse.com)** — every figure there is a live simulation rather than a recording, and each one is graded against a closed-form answer.
 
@@ -28,7 +26,7 @@ An agent re-sends its whole growing conversation on every turn, and a serving en
 A forecast of a cumulative quantity is only scored when its horizon ends, so every online calibration method learns one full horizon late. But the increments are non-negative, so if the running sum crosses the issued bound early, the miss is certain immediately while coverage is confirmed only at the end. A model-agnostic layer on top of any quantile forecaster credits those certain early misses and keeps explicit accounts of forecasts still pending. Whether that recovers faster after a volatility jump than delayed-feedback conformal baselines, without widening the bounds the rest of the time, is the question; the coverage guarantee is proved and checked numerically. With Hongyang Gao.
 
 **Reliability of tool-using agents**
-When an agent stalls, when is restarting it worth more than waiting, and how do you estimate the probability of a failure too rare for direct simulation to reach? Two pilots on real agents, one on restart policies and one on rare failures, with the direction still being chosen. With Yang Li.
+When an agent stalls, when is restarting it worth more than waiting, and how do you estimate the probability of a failure too rare for direct simulation to reach? Two planned real-agent pilots, one on restart policies and one on rare failures, with the direction still being chosen. Current validation uses mock environments. With Yang Li.
 
 ### Code
 
