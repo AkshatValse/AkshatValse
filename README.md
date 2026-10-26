@@ -2,7 +2,9 @@
 
 Undergraduate researcher at Iowa State University, studying Statistics, Mathematics, Computer Science, and Data Science.
 
-I build reproducible simulations and numerical experiments in Python, with research spanning stochastic sampling, rare events, neural PDE solvers, and ML serving systems. My focus is connecting mathematical guarantees to implementations that can be checked against exact references.
+I build reproducible simulations and numerical experiments in Python, with research spanning stochastic sampling, rare events, neural PDE solvers, and ML serving systems. My focus is connecting mathematical guarantees to implementations that can be checked against exact references. 
+
+I design and orchestrate multi-agent research and engineering workflows using Codex, Claude, Ollama, and Model Context Protocol (MCP) integrations. I combine planner–executor architectures, specialized agent delegation, parallel tool execution, iterative debugging, automated testing, and reproducible experimentation to carry complex projects from problem formulation through implementation and validation—using AI as a coordinated engineering system across the full research and development lifecycle.
 
 Some ongoing research code and results remain private pending publication. Public projects and research summaries are linked below; I am happy to discuss my contributions, methods, and publicly shareable findings.
 
